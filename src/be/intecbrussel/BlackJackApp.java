@@ -69,7 +69,6 @@ public class BlackJackApp {
 
                 }
 
-
                 System.out.println();
                 System.out.print("Player cards: ");
                 for (int j = 0; j < playerCards.length - 1 - totalCardsToShow; j++) {
@@ -136,7 +135,7 @@ public class BlackJackApp {
             }
 
 
-            /*System.out.print("Dealer cards: ");
+            System.out.print("Dealer cards: ");
             for (int i = 0; i < (dealerCards.length - 1); i++) {
                 System.out.print( dealerCards[i] + " ");
             }
@@ -146,12 +145,12 @@ public class BlackJackApp {
                 System.out.print(playerCards[i] + " ");
             }
             System.out.println();
-            System.out.println("*****************************");*/
+            System.out.println("*****************************");
 
-            /*System.out.println("Total Coins: " + totalCoins);
+            System.out.println("Total Coins: " + totalCoins);
             System.out.println("Please make your bet!");
-            // check with functiuon hasNextInt
-            playerBet = scanner.nextInt();*/
+            // check with function hasNextInt
+            playerBet = scanner.nextInt();
 
             System.out.println("Do you want to play again ? Type Yes or No");
             String answer = scanner.nextLine().toLowerCase();
@@ -163,6 +162,7 @@ public class BlackJackApp {
                 playerCardsValue = 0;
             }
         }
+
 
 
     }
